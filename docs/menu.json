@@ -1,0 +1,12 @@
+{
+    "main": "menu-home",
+    "menu": [
+        {
+            "id": "menu-home",
+            "mode":"menu",
+            "title": "Home",
+            "file": "",
+            "menu": []
+        }
+    ]
+}

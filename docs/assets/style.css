@@ -1,0 +1,38 @@
+* {
+    color: white;
+}
+
+/* make table border white 0.5 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 0.5px solid rgb(156, 156, 156);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #1b1b1b;
+}
+
+tr:nth-child(even) {
+    background-color: #1b1b1b;
+}
+
+tr:nth-child(odd) {
+    background-color: #1b1b1b;
+}
+
+tr:hover {
+    background-color: #404040;
+}
+
+p code {
+    background-color: #484848;
+    border-radius: 4px;
+    padding: 3px 5px;
+}
