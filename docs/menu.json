@@ -1,12 +1,70 @@
 {
-    "main": "menu-home",
+    "main": "home",
     "menu": [
         {
-            "id": "menu-home",
             "mode":"menu",
-            "title": "Home",
-            "file": "",
-            "menu": []
+            "title": "Introduction",
+            "file": "pages/index"
+        },
+        {
+            "mode":"sparator"
+        },
+        {
+            "mode":"menu",
+            "title": "Folder Structures",
+            "file": "pages/folder/index",
+            "menu": [
+                {
+                    "id": "folder/intro",
+                    "mode":"menu",
+                    "title": "Introduction",
+                    "file": "pages/folder/index"
+                }
+            ]
+        },
+        {
+            "mode":"sparator"
+        },
+        {
+            "mode":"menu",
+            "title": "File naming",
+            "file": "pages/folder/index",
+            "menu": [
+                {
+                    "id": "folder/intro",
+                    "mode":"menu",
+                    "title": "Introduction",
+                    "file": "pages/folder/index"
+                }
+            ]
+        },
+        {
+            "mode":"sparator"
+        },
+        {
+            "mode":"menu",
+            "title": "Workflow",
+            "file": "pages/folder/index",
+            "menu": [
+                {
+                    "id": "folder/intro",
+                    "mode":"menu",
+                    "title": "Element Grouping",
+                    "file": "pages/folder/index"
+                },
+                {
+                    "id": "folder/intro",
+                    "mode":"menu",
+                    "title": "Fetching Data",
+                    "file": "pages/folder/index"
+                },
+                {
+                    "id": "folder/intro",
+                    "mode":"menu",
+                    "title": "Next Action",
+                    "file": "pages/folder/index"
+                }
+            ]
         }
     ]
 }
