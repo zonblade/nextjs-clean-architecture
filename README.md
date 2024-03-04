@@ -1,2 +1,1 @@
-# nextjs-clean-architecture
-clean architecture, and best for debugging &amp; production of nextjs
+# NextJs Clean Architecture
