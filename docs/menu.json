@@ -27,14 +27,20 @@
         },
         {
             "mode":"menu",
-            "title": "File naming",
-            "file": "pages/folder/index",
+            "title": "Naming Conventions",
+            "file": "pages/naming/index",
             "menu": [
                 {
-                    "id": "folder/intro",
+                    "id": "folder/naming",
                     "mode":"menu",
-                    "title": "Introduction",
-                    "file": "pages/folder/index"
+                    "title": "Folder Naming",
+                    "file": "pages/naming/folder/index"
+                },
+                {
+                    "id": "file/naming",
+                    "mode":"menu",
+                    "title": "File Naming",
+                    "file": "pages/naming/file/index"
                 }
             ]
         },
@@ -65,6 +71,14 @@
                     "file": "pages/folder/index"
                 }
             ]
+        }, 
+        {
+            "mode": "sparator"
+        },
+        {
+            "mode": "menu",
+            "title": "TEST",
+            "file": "pages/test/index"
         }
     ]
 }

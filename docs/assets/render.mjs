@@ -11,9 +11,9 @@ async function CST_MenuConstructor() {
     let template = "";
     data.map((item, index) => {
         let subtemp = "";
-        if(typeof item.menu !== "undefined"){
+        if (typeof item.menu !== "undefined") {
             item["menu"].map((subitem, subindex) => {
-                subtemp += `<div class="pile">${subitem.title}</div>`
+                subtemp += `<div class="pile" page="${subitem.file}.md">${subitem.title}</div>`
             })
         }
         if (item.mode === "menu") {
