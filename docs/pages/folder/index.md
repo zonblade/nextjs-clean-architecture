@@ -1,22 +1,19 @@
+# Struktur Folder
 
-## test ini judul folder
+## Struktur Folder Utama
+.
+└── app/
+    ├── [feature]
+    ├── error.tsx
+    ├── not-found.tsx
+    └── layout.tsx
 
-```html
-<h1>hello<span></span></h1>
-```
+## Struktur Folder Fitur
+.
+└── [feature]/
+    ├── $action
+    ├── $function
+    ├── $element
+    └── index.tsx
 
-| Name | Age |
-|------|-----|
-| John | 20  |
 
-```tsx
-const hello = () => {
-    const ok = "yaaa";
-
-    return (
-        <h1>hello<span></span></h1>
-    )
-}
-```
-
-hello `test`
