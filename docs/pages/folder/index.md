@@ -17,3 +17,11 @@
     └── index.tsx
 
 
+## Struktur Folder Action
+- Under Construction
+
+## Struktor Folder Function
+- Under Construction
+
+## Struktur Folder Element
+- Under Construction
