@@ -18,10 +18,16 @@
 
 
 ## Struktur Folder Action
-- Under Construction
+.
+└── $action/
+    ├── action.create.user.tsx
+    └── constant.tsx
 
 ## Struktor Folder Function
-- Under Construction
+.
+└── $function/
+    ├── sfn.table.constructor.tsx
+    └── cfn.create.user.tsx
 
 ## Struktur Folder Element
 - Under Construction

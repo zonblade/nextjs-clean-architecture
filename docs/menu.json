@@ -41,6 +41,12 @@
                     "mode":"menu",
                     "title": "File Naming",
                     "file": "pages/naming/file/index"
+                },
+                {
+                    "id": "function/naming",
+                    "mode":"menu",
+                    "title": "Function Naming",
+                    "file": "pages/naming/function/index"
                 }
             ]
         },
