@@ -40,39 +40,85 @@ p code {
 
 
 #menu {
-    max-width: 270px; 
-    overflow-y: 
-    auto;height: 100vh;
+    max-width: 270px;
+    overflow-y: auto;
+    height: 100vh;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
 
-    h2 {
-        margin-top: 30px;
-        padding: 10px;
+#menu h2 {
+    margin-top: 30px;
+    padding: 10px;
+    line-height: 32px;
+    font-size: 24px;
+}
+
+#menu .pile {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: wheat;
+}
+
+#menu .submenu {
+    display: none;
+}
+
+#menu .active-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100vh - 139px);
+    background-color: #1b1b1b;
+    overflow-y: hidden;
+}
+
+#menu .pile:hover {
+    background-color: #404040;
+}
+
+#menu .sparator {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dfdfdf;
+    height: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* animate when transition from none to block sliding from left to right */
+#menu .active-submenu {
+    display: block;
+    position: absolute;
+    background-color: #1b1b1b;
+    animation: slide 0.5s;
+}
+
+@keyframes slide {
+    from {
+        left: -270px;
     }
-
-    .pile {
-        display: flex;
-        align-items: center;
-        padding-left: 10px;
-        height: 32px;
-        cursor: pointer;
-        border-radius: 5px;
-        color: wheat;
+    to {
+        left: 0;
     }
+}
 
-    .pile:hover {
-        background-color: #404040;
+#menu .inactive-submenu {
+    display: none;
+    animation: slide-back 0.5s;
+}
+
+@keyframes slide-back {
+    from {
+        left: 0;
     }
-
-    .sparator {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background-color: #dfdfdf;
-        height: 2px;
-        margin-left: 10px;
-        margin-right: 10px;
+    to {
+        left: -270px;
     }
 }
 

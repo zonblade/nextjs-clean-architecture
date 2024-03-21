@@ -7,13 +7,13 @@
             "file": "pages/index"
         },
         {
-            "mode":"sparator"
-        },
-        {
             "mode":"menu",
             "title": "Folder Structures",
             "file": "pages/folder/index",
             "menu": [
+                {
+                    "mode": "sparator"
+                },
                 {
                     "id": "folder/intro",
                     "mode":"menu",
@@ -23,13 +23,13 @@
             ]
         },
         {
-            "mode":"sparator"
-        },
-        {
             "mode":"menu",
             "title": "Naming Conventions",
             "file": "pages/naming/index",
             "menu": [
+                {
+                    "mode": "sparator"
+                },
                 {
                     "id": "folder/naming",
                     "mode":"menu",
@@ -46,18 +46,71 @@
                     "id": "function/naming",
                     "mode":"menu",
                     "title": "Function Naming",
-                    "file": "pages/naming/function/index"
+                    "file": "pages/naming/function/index",
+                    "menu":[
+                        {
+                            "mode": "sparator"
+                        },
+                        {
+                            "id": "function/naming",
+                            "mode":"menu",
+                            "title": "Function Naming 1",
+                            "file": "pages/naming/function/index",
+                            "menu":[
+                                {
+                                    "mode": "sparator"
+                                },
+                                {
+                                    "id": "function/naming",
+                                    "mode":"menu",
+                                    "title": "Function Diagram 2",
+                                    "file": "pages/naming/function/index",
+                                    "menu":[
+                                        {
+                                            "mode": "sparator"
+                                        },
+                                        {
+                                            "id": "function/naming",
+                                            "mode":"menu",
+                                            "title": "Function Flaming 3",
+                                            "file": "pages/naming/function/index",
+                                            "menu":[
+                                                {
+                                                    "mode": "sparator"
+                                                },
+                                                {
+                                                    "id": "function/naming",
+                                                    "mode":"menu",
+                                                    "title": "Function Dreaming 4",
+                                                    "file": "pages/naming/function/index",
+                                                    "menu":[
+                                                        
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "function/naming",
+                            "mode":"menu",
+                            "title": "Function Naming",
+                            "file": "pages/naming/function/index"
+                        }
+                    ]
                 }
             ]
-        },
-        {
-            "mode":"sparator"
         },
         {
             "mode":"menu",
             "title": "Workflow",
             "file": "pages/folder/index",
             "menu": [
+                {
+                    "mode": "sparator"
+                },
                 {
                     "id": "folder/intro",
                     "mode":"menu",
@@ -78,9 +131,6 @@
                 }
             ]
         }, 
-        {
-            "mode": "sparator"
-        },
         {
             "mode": "menu",
             "title": "TEST",
