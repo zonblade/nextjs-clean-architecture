@@ -17,39 +17,3 @@ The app folder should contain list of feature or page :
     └── User/
         └── Management
 ```
-
-
-## Feature Naming
-
-On feature, name it based on what scope it is.\
-Example for feature like _management user_, the scope is _user_ and the feature is _management_
-
-```sh
-.
-└── app /
-    └── user/
-        └── management
-```
-
-By **scoping** the feature we can add **more feature** regarding the scope **seemlesly**.
-
-
-## Other Folder Naming
-
-Other folder naming outsing pages use **$**.\
-By doing this we distinct the pages folder with other folder,\
-and it is easier too with Next JS App Router.
-
-```sh
-.
-├── user /
-│   ├── management/
-│   │   ├── $action
-│   │   └── $element
-│   └── $action
-└── $navigator
-```
-
-Every page has component (card, box, modal, .etc) and the component should be named as **_$element_**\
-Function naming you can also use **_$function_** as the naming folder.
-
