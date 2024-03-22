@@ -9,11 +9,11 @@ Distinct folder per feature make bug fixing convenient.
 The app folder should contain list of feature or page :
 
 ```sh
-├── Website /
-│   ├── About 
-│   └── Contact
-└── Dashboard/
-    ├── Login
-    └── User/
-        └── Management
+├── website /
+│   ├── about 
+│   └── contact
+└── dashboard/
+    ├── login
+    └── user/
+        └── management
 ```

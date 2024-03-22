@@ -11,7 +11,7 @@ ACT_[action]
 ## Contoh Penamaan
 ACT_SubmitForm: Digunakan untuk mengeksekusi tindakan pengiriman formulir.
 ```tsx
-export async function SubmitForm(data: string){
+export async function ACT_SubmitForm(data: string){
     // API Call
 
     return

@@ -15,42 +15,52 @@
                     "mode": "sparator"
                 },
                 {
-                    "id": "folder/intro",
+                    "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Introduction",
-                    "file": "pages/folder/index",
-                    "menu": [
-                        {
-                            "id": "folder/structures",
-                            "mode":"menu",
-                            "title": "Action Folder Structures",
-                            "file": "pages/folder/action"
-                        },
-                        {
-                            "id": "file/structures",
-                            "mode":"menu",
-                            "title": "Element Folder Structures",
-                            "file": "pages/folder/element"
-                        },
-                        {
-                            "id": "file/structures",
-                            "mode":"menu",
-                            "title": "Feature Folder Structures",
-                            "file": "pages/folder/feature"
-                        },
-                        {
-                            "id": "file/structures",
-                            "mode":"menu",
-                            "title": "Function Folder Structures",
-                            "file": "pages/folder/function"
-                        },
-                        {
-                            "id": "file/structures",
-                            "mode":"menu",
-                            "title": "Main Folder Structures",
-                            "file": "pages/folder/main"
-                        }
-                    ]
+                    "title": "Action Folder Structures",
+                    "file": "pages/folder/action"
+                },
+                {
+                    "id": "folder/structures",
+                    "mode":"menu",
+                    "title": "Element Folder Structures",
+                    "file": "pages/folder/element"
+                },
+                {
+                    "id": "folder/structures",
+                    "mode":"menu",
+                    "title": "Feature Folder Structures",
+                    "file": "pages/folder/feature"
+                },
+                {
+                    "id": "folder/structures",
+                    "mode":"menu",
+                    "title": "Function Folder Structures",
+                    "file": "pages/folder/function"
+                },
+                {
+                    "id": "folder/structures",
+                    "mode":"menu",
+                    "title": "Main Folder Structures",
+                    "file": "pages/folder/main"
+                },
+                {
+                    "id": "fodler/structures",
+                    "mode":"menu",
+                    "title": "API Folder Structures",
+                    "file": "pages/folder/api"
+                },
+                {
+                    "id": "folder/structures",
+                    "mode":"menu",
+                    "title": "Library Folder Structures",
+                    "file": "pages/folder/lib"
+                },
+                {
+                    "id": "folder/structures",
+                    "mode":"menu",
+                    "title": "Registry Folder Structures",
+                    "file": "pages/folder/registry"
                 }
             ]
         },
@@ -118,6 +128,18 @@
                             "mode":"menu",
                             "title": "Function File Naming",
                             "file": "pages/naming/file/function"
+                        },
+                        {
+                            "id": "naming/file",
+                            "mode":"menu",
+                            "title": "API File Naming",
+                            "file": "pages/naming/file/api"
+                        },
+                        {
+                            "id": "naming/file",
+                            "mode":"menu",
+                            "title": "Registry File Naming",
+                            "file": "pages/naming/file/registry"
                         }
                     ]
 
@@ -152,8 +174,8 @@
                         {
                             "id": "naming/function",
                             "mode":"menu",
-                            "title": "Function Function Naming",
-                            "file": "pages/naming/function/function"
+                            "title": "API Function Naming",
+                            "file": "pages/naming/function/api"
                         }
                     ]
 
