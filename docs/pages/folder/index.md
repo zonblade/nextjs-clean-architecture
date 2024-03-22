@@ -1,4 +1,10 @@
-## Garis Besar Struktur Folder
+## Struktur Folder
+
+Disarankan untuk dibaca sesuai urutan angka, dan harap memahami struktur dibawah sebelum melanjutkan.
+
+___
+
+### Garis Besar Struktur Folder
 
 `Basic Folder Structure`
 ```sh
@@ -29,6 +35,9 @@
 │   │   ├── layout.tsx
 │   │   └── page.tsx
 │   ├── lib
+│   │   └── [file].tsx
+│   ├── registry
+│   │   └── [file].tsx
 │   └── middleware.ts
 └── package.json
 ```

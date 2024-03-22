@@ -17,37 +17,37 @@
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Action ",
-                    "file": "pages/folder/action"
+                    "title": "1 - Root ",
+                    "file": "pages/folder/main"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Element ",
-                    "file": "pages/folder/element"
-                },
-                {
-                    "id": "folder/structures",
-                    "mode":"menu",
-                    "title": "Feature ",
+                    "title": "2 - Feature ",
                     "file": "pages/folder/feature"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Function ",
-                    "file": "pages/folder/function"
+                    "title": "3 - Action ",
+                    "file": "pages/folder/action"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Main ",
-                    "file": "pages/folder/main"
+                    "title": "4 - Element ",
+                    "file": "pages/folder/element"
+                },
+                {
+                    "id": "folder/structures",
+                    "mode":"menu",
+                    "title": "5 - Function ",
+                    "file": "pages/folder/function"
                 },
                 {
                     "id": "fodler/structures",
                     "mode":"menu",
-                    "title": "API ",
+                    "title": "6 - API ",
                     "file": "pages/folder/api"
                 },
                 {
