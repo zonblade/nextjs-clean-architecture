@@ -18,7 +18,39 @@
                     "id": "folder/intro",
                     "mode":"menu",
                     "title": "Introduction",
-                    "file": "pages/folder/index"
+                    "file": "pages/folder/index",
+                    "menu": [
+                        {
+                            "id": "folder/structures",
+                            "mode":"menu",
+                            "title": "Action Folder Structures",
+                            "file": "pages/folder/action"
+                        },
+                        {
+                            "id": "file/structures",
+                            "mode":"menu",
+                            "title": "Element Folder Structures",
+                            "file": "pages/folder/element"
+                        },
+                        {
+                            "id": "file/structures",
+                            "mode":"menu",
+                            "title": "Feature Folder Structures",
+                            "file": "pages/folder/feature"
+                        },
+                        {
+                            "id": "file/structures",
+                            "mode":"menu",
+                            "title": "Function Folder Structures",
+                            "file": "pages/folder/function"
+                        },
+                        {
+                            "id": "file/structures",
+                            "mode":"menu",
+                            "title": "Main Folder Structures",
+                            "file": "pages/folder/main"
+                        }
+                    ]
                 }
             ]
         },
@@ -34,72 +66,97 @@
                     "id": "folder/naming",
                     "mode":"menu",
                     "title": "Folder Naming",
-                    "file": "pages/naming/folder/index"
+                    "file": "pages/naming/folder/index",
+                    "menu": [
+                        {
+                            "mode":"sparator"
+                        },
+                        {
+                            "id": "naming/folder",
+                            "mode":"menu",
+                            "title": "Feature Folder Naming",
+                            "file": "pages/naming/folder/feature"
+                        },
+                        {
+                            "id": "naming/folder",
+                            "mode":"menu",
+                            "title": "Other Folder Naming",
+                            "file": "pages/naming/folder/other-folder"
+                        }
+                    ]
+
                 },
                 {
                     "id": "file/naming",
                     "mode":"menu",
                     "title": "File Naming",
-                    "file": "pages/naming/file/index"
+                    "file": "pages/naming/file/index",
+                    "menu": [
+                        {
+                            "mode":"sparator"
+                        },
+                        {
+                            "id": "naming/file",
+                            "mode":"menu",
+                            "title": "Action File Naming",
+                            "file": "pages/naming/file/action"
+                        },
+                        {
+                            "id": "naming/file",
+                            "mode":"menu",
+                            "title": "Constant File Naming",
+                            "file": "pages/naming/file/constant"
+                        },
+                        {
+                            "id": "naming/file",
+                            "mode":"menu",
+                            "title": "Element File Naming",
+                            "file": "pages/naming/file/element"
+                        },
+                        {
+                            "id": "naming/file",
+                            "mode":"menu",
+                            "title": "Function File Naming",
+                            "file": "pages/naming/file/function"
+                        }
+                    ]
+
                 },
                 {
                     "id": "function/naming",
                     "mode":"menu",
                     "title": "Function Naming",
                     "file": "pages/naming/function/index",
-                    "menu":[
+                    "menu": [
                         {
-                            "mode": "sparator"
+                            "mode":"sparator"
                         },
                         {
-                            "id": "function/naming",
+                            "id": "naming/function",
                             "mode":"menu",
-                            "title": "Function Naming 1",
-                            "file": "pages/naming/function/index",
-                            "menu":[
-                                {
-                                    "mode": "sparator"
-                                },
-                                {
-                                    "id": "function/naming",
-                                    "mode":"menu",
-                                    "title": "Function Diagram 2",
-                                    "file": "pages/naming/function/index",
-                                    "menu":[
-                                        {
-                                            "mode": "sparator"
-                                        },
-                                        {
-                                            "id": "function/naming",
-                                            "mode":"menu",
-                                            "title": "Function Flaming 3",
-                                            "file": "pages/naming/function/index",
-                                            "menu":[
-                                                {
-                                                    "mode": "sparator"
-                                                },
-                                                {
-                                                    "id": "function/naming",
-                                                    "mode":"menu",
-                                                    "title": "Function Dreaming 4",
-                                                    "file": "pages/naming/function/index",
-                                                    "menu":[
-                                                        
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "title": "Action Function Naming",
+                            "file": "pages/naming/function/action"
                         },
                         {
-                            "id": "function/naming",
+                            "id": "naming/function",
                             "mode":"menu",
-                            "title": "Function Naming",
-                            "file": "pages/naming/function/index"
+                            "title": "Constant Function Naming",
+                            "file": "pages/naming/function/constant"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "Element Function Naming",
+                            "file": "pages/naming/function/element"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "Function Function Naming",
+                            "file": "pages/naming/function/function"
                         }
                     ]
+
                 }
             ]
         },
