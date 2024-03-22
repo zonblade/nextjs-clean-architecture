@@ -17,49 +17,49 @@
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Action Folder Structures",
+                    "title": "Action ",
                     "file": "pages/folder/action"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Element Folder Structures",
+                    "title": "Element ",
                     "file": "pages/folder/element"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Feature Folder Structures",
+                    "title": "Feature ",
                     "file": "pages/folder/feature"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Function Folder Structures",
+                    "title": "Function ",
                     "file": "pages/folder/function"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Main Folder Structures",
+                    "title": "Main ",
                     "file": "pages/folder/main"
                 },
                 {
                     "id": "fodler/structures",
                     "mode":"menu",
-                    "title": "API Folder Structures",
+                    "title": "API ",
                     "file": "pages/folder/api"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Library Folder Structures",
+                    "title": "Library ",
                     "file": "pages/folder/lib"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Registry Folder Structures",
+                    "title": "Registry ",
                     "file": "pages/folder/registry"
                 }
             ]
@@ -185,7 +185,7 @@
         {
             "mode":"menu",
             "title": "Workflow",
-            "file": "pages/folder/index",
+            "file": "pages/workflow/index",
             "menu": [
                 {
                     "mode": "sparator"
@@ -194,19 +194,25 @@
                     "id": "folder/intro",
                     "mode":"menu",
                     "title": "Element Grouping",
-                    "file": "pages/folder/index"
+                    "file": "pages/workflow/index"
                 },
                 {
                     "id": "folder/intro",
                     "mode":"menu",
-                    "title": "Fetching Data",
-                    "file": "pages/folder/index"
+                    "title": "Fetching Data (server)",
+                    "file": "pages/workflow/fetching.server"
                 },
                 {
                     "id": "folder/intro",
                     "mode":"menu",
-                    "title": "Next Action",
-                    "file": "pages/folder/index"
+                    "title": "Fetching Data (client)",
+                    "file": "pages/workflow/fetching.client"
+                },
+                {
+                    "id": "folder/intro",
+                    "mode":"menu",
+                    "title": "Using Next Action",
+                    "file": "pages/workflow/posting.client"
                 }
             ]
         }, 

@@ -36,7 +36,7 @@ function recrusiveMenu(data, num) {
             template += `
             <div style="width: 100%;" id="par-${fleId}" data-z="${num}">
                 <div class="pile" page="${item.file}.md" id="${fleId}" data-sub="${hasSub}" onClick="window.openMenu(this);">
-                    ${item.title} - ${hasSub ? "sub" : ""}
+                    ${item.title}
                 </div>
                 ${subtemps}
             </div>`
