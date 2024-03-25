@@ -115,7 +115,16 @@ window.openMenu = (e) => {
     const sub = e.getAttribute('data-sub');
     if (sub === "true") {
         updateMenuState(id)
+        // scroll to top
+        window.scrollTo(0, 0)
     }
+}
+
+window.openSideMenu = () => {
+    let elem = document.getElementById('menu');
+    console.log(elem)
+    // add class
+    elem.classList.toggle('active');
 }
 
 async function CST_ContentConstructor(page = "pages/index.md") {

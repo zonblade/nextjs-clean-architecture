@@ -38,24 +38,58 @@ p code {
     padding: 3px 5px;
 }
 
+#rooter {
+    position: relative;
+    flex: 1;
+    max-width: 900px
+}
 
-#menu {
+#menu-shadow {
+    display: flex;
+    flex:1;
+    min-width: 270px;
     max-width: 270px;
-    overflow-y: auto;
+}
+
+.menu {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 100;
+    
+    flex:1;
+    flex-direction: column;
+
     height: 100vh;
+    min-width: 270px;
+    max-width: 270px;
+    
+    overflow-y: auto;
+    
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
+    background-color: #1b1b1b;
 }
 
-#menu h2 {
+#menu-top {
+    display:none;
+}
+
+#root {
+    flex: 1; 
+    padding: 20px;
+}
+
+.menu h2 {
     margin-top: 30px;
     padding: 10px;
     line-height: 32px;
     font-size: 24px;
 }
 
-#menu .pile {
+.menu .pile {
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -65,11 +99,11 @@ p code {
     color: wheat;
 }
 
-#menu .submenu {
+.menu .submenu {
     display: none;
 }
 
-#menu .active-menu {
+.menu .active-menu {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,11 +112,11 @@ p code {
     overflow-y: hidden;
 }
 
-#menu .pile:hover {
+.menu .pile:hover {
     background-color: #404040;
 }
 
-#menu .sparator {
+.menu .sparator {
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #dfdfdf;
@@ -92,7 +126,7 @@ p code {
 }
 
 /* animate when transition from none to block sliding from left to right */
-#menu .active-submenu {
+.menu .active-submenu {
     display: block;
     position: absolute;
     background-color: #1b1b1b;
@@ -108,7 +142,7 @@ p code {
     }
 }
 
-#menu .inactive-submenu {
+.menu .inactive-submenu {
     display: none;
     animation: slide-back 0.5s;
 }
@@ -117,17 +151,79 @@ p code {
     from {
         left: 0;
     }
+
     to {
         left: -270px;
     }
 }
 
+
 /* screen size medium */
 @media (max-width: 768px) {
-    #menu {
-        display: block;
+    #menu-shadow {
+        display:none;
+    }
+
+    #menu h2 {
+        display:none;
+    }
+
+    .menu {
         position: absolute;
+        top: 52px;
+        left:-500px;
+        z-index: 1000;
+    }
+
+    .menu.active {
+        left:0px;
+        animation: slide-menu-in 0.5s;
+    }
+
+    @keyframes slide-menu-in {
+        from {
+            left: -500px;
+        }
+        to {
+            left: 0;
+        }
+    }
+
+    #menu-top {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
         background-color: #1b1b1b;
-        border-right: 2px solid #dfdfdf;
+    }
+
+    #menu-top .menu-top-left {
+        flex: 1;
+        max-width: 64px;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu-top-left #menu-button {
+        width: 32px; 
+        height: 32px; 
+        filter: brightness(65%);
+        cursor: pointer;
+    }
+
+    .menu-top-left #menu-button:hover {
+        filter: brightness(100%);
+    }
+
+    #menu-top .menu-top-right {
+        flex: 1;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .menu-top-right h2 {
+        font-size: 18px;
     }
 }
