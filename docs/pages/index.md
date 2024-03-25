@@ -1,6 +1,9 @@
 
 ## Clean Architecture NextJs! (v1.0)
 
+[![Github](assets/images/github-mark.png)](https://github.com/zonblade/nextjs-clean-architecture)
+[![Stats](https://img.shields.io/github/contributors/zonblade/nextjs-clean-architecture)](https://github.com/zonblade/nextjs-clean-architecture/graphs/contributors)
+
 sebelum membaca dokumentasi ini, pastikan **keilmuan** memahami `NextJs` sudah
 mencukupi untuk memahami beberapa hal dasar dalam dokumentasi *NextJS*. Dikarenakan
 dokumentasi clean-architecture tidak akan mencakup hal-hal dasar dalam penggunaan/pembangunan

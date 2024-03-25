@@ -10,8 +10,9 @@
 Contoh struktur :
 ```sh
 .
-├── app
-│   └── ...
+├── app/
+├── lib/
+├── reg/
 └── api/
     ├── user/
     │   ├── premium.ts

@@ -9,11 +9,14 @@
 Contoh Struktur :
 ```sh
 .
-├── app
-│   ├── page.tsx
-│   └── layout.tsx
+├── api/
+├── app/
+├── reg/
 └── lib/
-    └── math.tsx
+    ├── redis/
+    │   └── index.ts
+    ├── math.ts
+    └── button.tsx
 ```
 
 ### Alasan Penggunaan:

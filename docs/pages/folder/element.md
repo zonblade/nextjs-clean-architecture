@@ -8,9 +8,13 @@
 Contoh Struktur :    
 ```sh
 .
-└── $element
-    ├── client.table.pagination.tsx
-    └── server.table.tsx
+├── $action
+├── $element
+│   ├── client.table.pagination.tsx
+│   └── server.table.tsx
+├── $function
+├── $lang
+└── page.tsx
 ```
 
 ### Alasan Penggunaan

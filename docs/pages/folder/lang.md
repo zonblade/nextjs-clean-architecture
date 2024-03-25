@@ -16,15 +16,21 @@ Dalam pengembangan aplikasi dengan TypeScript menggunakan Next.js 14, penting un
 ```sh
 .
 └── app/
-    └── user/
-        └── $lang/
-            ├── id_en.ts
-            └── index.tsx
-    └── dashboard/
-        └── $lang/
-            ├── id_en.ts
-            └── index.tsx
+    ├── user/
+    │   ├── page.tsx
+    │   ├── $action
+    │   ├── $element
+    │   ├── $function
+    │   └── $lang/
+    │       ├── id_en.ts
+    │       └── index.tsx
+    ├── dashboard/
+    │   ├── ...
+    │   └── $lang/
+    │       ├── id_en.ts
+    │       └── index.tsx
     └── products/
+        ├── ...
         └── $lang/
             ├── id_en.ts
             └── index.tsx

@@ -8,9 +8,13 @@
 Contoh Struktur :     
 ```sh
 .
-└── $function
-    ├── sfn.table.constructor.tsx
-    └── cfn.create.user.tsx
+├── $action
+├── $element
+├── $function
+│   ├── sfn.table.constructor.tsx
+│   └── cfn.create.user.tsx
+├── $lang
+└── page.tsx
 ```
 
 ### Alasan Penggunaan

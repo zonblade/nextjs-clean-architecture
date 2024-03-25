@@ -1,6 +1,10 @@
-* {
+h, h1, h2, h3, h4, h5, h6, th, tr, td, p, ul {
     color: white;
     font-family: "Poppins", sans-serif;
+}
+
+pre {
+    font-size: 16px;
 }
 
 /* make table border white 0.5 */

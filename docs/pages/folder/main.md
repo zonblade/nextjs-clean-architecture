@@ -12,8 +12,7 @@ Contoh Struktur :
 .
 └── app
     ├── [feature]
-    ├── error.tsx
-    ├── not-found.tsx
+    ├── ... #nextjs has documentation about this.
     └── layout.tsx
 ```
 

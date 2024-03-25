@@ -9,7 +9,10 @@
 Contoh Struktur
 ```sh
 .
-└── registry/
+├── api/
+├── app/
+├── lib/
+└── reg/
     └── routes.register.tsx
 ```
 
