@@ -1,25 +1,18 @@
 ## Constant Naming
-Penamaan fungsi pada constant mengikuti kaidah berikut:\
-E_[name]
 
-#### Rincian Penamaan
-E: Awalan yang menunjukkan bahwa konstanta tersebut adalah konstanta dalam aplikasi.
+## Naming Conventions:
+- Snake Case: Penamaan constant variabel mengikuti pola snake case, di mana setiap kata dipisahkan menggunakan garis bawah (_), tanpa spasi, dan semuanya ditulis dalam huruf kecil.
 
-[name]: Nama deskriptif dari konstanta tersebut, biasanya menggambarkan jenis atau kategori dari nilai yang direpresentasikan oleh konstanta.
+- Huruf Besar: Seluruh karakter dalam constant variabel ditulis dalam huruf besar (upper case), untuk membedakannya dari variabel biasa dan menyoroti sifat konstan dari variabel tersebut.
 
-## Contoh Penamaan
-- E_User_Management: Digunakan untuk merepresentasikan konstanta yang terkait dengan manajemen pengguna dalam aplikasi.
-```tsx
-export enum E_User_Managament {
-    FAIL_TO_CONFIRM = "fail:to:error",
-}
-```
+### Contoh:
+- MAX_RETRY_ATTEMPTS: Konstanta ini mungkin digunakan untuk menentukan jumlah maksimum percobaan saat melakukan koneksi ulang.
 
-#### Alasan Penamaan
-- **Jelas dan Deskriptif**: Penamaan yang menggunakan awalan E_ serta nama deskriptif konstanta memudahkan dalam memahami tujuan dan nilai yang direpresentasikan oleh konstanta tersebut.
+- API_BASE_URL: Konstanta ini mungkin digunakan untuk menyimpan URL dasar untuk API yang digunakan dalam aplikasi.
 
-- **Konsistensi**: Dengan menggunakan pola E_[name], penamaan konstanta menjadi konsisten dan mudah diidentifikasi oleh pengembang saat membaca atau menulis kode.
+### Alasan Penggunaan:
+- Konsistensi: Konvensi penamaan ini membantu menjaga konsistensi dalam kode basis, karena setiap konstanta akan mengikuti pola yang sama.
 
-- **Organisasi Kode**: Penamaan yang spesifik terhadap konstanta memungkinkan pengorganisasian kode yang lebih baik, terutama dalam hal pengelompokan konstanta berdasarkan fungsionalitas atau jenis data yang direpresentasikan.
+- Keterbacaan: Pola snake case dan huruf besar memudahkan pengembang untuk membaca dan memahami peran dari setiap konstanta dalam kode.
 
-
+- Pembeda: Penggunaan huruf besar membantu dalam membedakan constant variabel dari variabel biasa, sehingga memudahkan identifikasi dan penggunaan di seluruh kode.

@@ -61,6 +61,12 @@
                     "mode":"menu",
                     "title": "Registry Folder Structures",
                     "file": "pages/folder/registry"
+                },
+                {
+                    "id": "folder/structures",
+                    "mode":"menu",
+                    "title": "Language Folder Structures",
+                    "file": "pages/folder/lang"
                 }
             ]
         },
@@ -140,6 +146,12 @@
                             "mode":"menu",
                             "title": "Registry File Naming",
                             "file": "pages/naming/file/registry"
+                        },
+                        {
+                            "id": "naming/file",
+                            "mode":"menu",
+                            "title": "Language File Naming",
+                            "file": "pages/naming/file/lang"
                         }
                     ]
 
@@ -176,6 +188,36 @@
                             "mode":"menu",
                             "title": "API Function Naming",
                             "file": "pages/naming/function/api"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "Enum Function Naming",
+                            "file": "pages/naming/function/enum"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "Function Naming",
+                            "file": "pages/naming/function/function"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "Interface Function Naming",
+                            "file": "pages/naming/function/interface"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "Language Function Naming",
+                            "file": "pages/naming/function/lang"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "Type Function Naming",
+                            "file": "pages/naming/function/type"
                         }
                     ]
 
