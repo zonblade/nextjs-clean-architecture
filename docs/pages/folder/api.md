@@ -11,14 +11,16 @@ Contoh struktur :
 ```sh
 .
 ├── app
-│   ├── page.tsx
-│   └── layout.tsx
+│   └── ...
 └── api/
     ├── user/
-    │   └── user.tsx
+    │   ├── premium.ts
+    │   └── account.ts
     ├── product/
-    │   └── product.tsx
-    └── common.tsx
+    │   ├── data.public.ts
+    │   ├── data.list.ts
+    │   └── create.ts
+    └── common.ts
 ```
 
 ### Alasan Penggunaan:
