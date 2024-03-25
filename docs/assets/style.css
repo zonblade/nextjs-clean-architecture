@@ -4,13 +4,34 @@ h, h1, h2, h3, h4, h5, h6, th, tr, td, p, ul {
 }
 
 pre {
-    font-size: 16px;
+    font-size: 14px;
+}
+
+a {
+    color: #00a8ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00a8ff;
+    text-decoration: underline;
 }
 
 /* make table border white 0.5 */
 table {
     border-collapse: collapse;
     width: 100%;
+}
+
+p img {
+    max-width: 400px;
+}
+
+blockquote {
+    background-color: #1b1b1b;
+    border-left: 5px solid #404040;
+    padding: 10px;
+    margin: 10px;
 }
 
 th,

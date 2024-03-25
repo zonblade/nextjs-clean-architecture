@@ -35,7 +35,7 @@ function recrusiveMenu(data, num) {
             }
             template += `
             <div style="width: 100%;" id="par-${fleId}" data-z="${num}">
-                <div class="pile" page="${item.file}.md" id="${fleId}" data-sub="${hasSub}" onClick="window.openMenu(this);">
+                <div class="pile" page="${item.file}.md" id="${fleId}" data-path="${item.file}" data-sub="${hasSub}" onClick="window.openMenu(this);">
                     ${item.title}
                 </div>
                 ${subtemps}
@@ -113,6 +113,9 @@ window.openMenu = (e) => {
     const id = e.id;
     // get data-sub
     const sub = e.getAttribute('data-sub');
+    const path = encodeURIComponent(e.getAttribute('data-path'))
+    window.history.pushState({}, '', `?p=${path}`)
+
     if (sub === "true") {
         updateMenuState(id)
         // scroll to top
@@ -136,8 +139,14 @@ async function CST_ContentConstructor(page = "pages/index.md") {
 }
 
 (async () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const page = urlParams.get('p');
+    let initRender = "pages/index.md"
+    if(page!==null){
+        initRender = `${decodeURIComponent(page)}.md`
+    }
     await CST_MenuConstructor()
-    await CST_ContentConstructor()
+    await CST_ContentConstructor(initRender)
 })()
 
 document.addEventListener('click', (e) => {

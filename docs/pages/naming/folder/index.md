@@ -17,3 +17,7 @@ The app folder should contain list of feature or page :
     └── user/
         └── management
 ```
+
+##### selengkapnya : 
+- [NextJs App Routing](https://nextjs.org/docs/app/building-your-application/routing)
+- [NextJs File Convention](https://nextjs.org/docs/app/api-reference/file-conventions)

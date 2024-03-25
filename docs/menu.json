@@ -8,7 +8,7 @@
         },
         {
             "mode":"menu",
-            "title": "Folder Structures",
+            "title": "Folders & Files Structures",
             "file": "pages/folder/index",
             "menu": [
                 {
@@ -226,7 +226,7 @@
         },
         {
             "mode":"menu",
-            "title": "Workflow",
+            "title": "Data Workflow",
             "file": "pages/workflow/index",
             "menu": [
                 {
@@ -235,8 +235,8 @@
                 {
                     "id": "folder/intro",
                     "mode":"menu",
-                    "title": "Element Grouping",
-                    "file": "pages/workflow/index"
+                    "title": "Element Lifecycle",
+                    "file": "pages/workflow/case-study/component"
                 },
                 {
                     "id": "folder/intro",
@@ -253,15 +253,10 @@
                 {
                     "id": "folder/intro",
                     "mode":"menu",
-                    "title": "Using Next Action",
+                    "title": "Submit/Req Data (client)",
                     "file": "pages/workflow/posting.client"
                 }
             ]
-        }, 
-        {
-            "mode": "menu",
-            "title": "TEST",
-            "file": "pages/test/index"
         }
     ]
 }

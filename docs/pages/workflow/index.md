@@ -1,22 +1,8 @@
+## Data Workflow
 
-## test ini judul folder
+beberapa data workflow yang harus dipatuhi untuk 
+pemanfaatan penuh feature yang diberikan
 
-```html
-<h1>hello<span></span></h1>
-```
-
-| Name | Age |
-|------|-----|
-| John | 20  |
-
-```tsx
-const hello = () => {
-    const ok = "yaaa";
-
-    return (
-        <h1>hello<span></span></h1>
-    )
-}
-```
-
-hello `test`
+- **Fetching Data (Server/Client)** : penting untuk memahami flow pemanggilan dan flow pengembalian data.
+- **Submit/Req Data** : penting untuk memahami flow pengiriman data.
+- **Element Lifecycle** : point paling krusial untuk manajemen data teratur.
