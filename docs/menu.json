@@ -53,19 +53,19 @@
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Library ",
+                    "title": "7 - Library ",
                     "file": "pages/folder/lib"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Registry ",
+                    "title": "8 - Registry ",
                     "file": "pages/folder/registry"
                 },
                 {
                     "id": "folder/structures",
                     "mode":"menu",
-                    "title": "Language Folder Structures",
+                    "title": "9 - Language",
                     "file": "pages/folder/lang"
                 }
             ]
@@ -90,13 +90,13 @@
                         {
                             "id": "naming/folder",
                             "mode":"menu",
-                            "title": "Feature Folder Naming",
+                            "title": "1 - Feature ",
                             "file": "pages/naming/folder/feature"
                         },
                         {
                             "id": "naming/folder",
                             "mode":"menu",
-                            "title": "Other Folder Naming",
+                            "title": "2 - Other",
                             "file": "pages/naming/folder/other-folder"
                         }
                     ]
@@ -114,43 +114,43 @@
                         {
                             "id": "naming/file",
                             "mode":"menu",
-                            "title": "Action File Naming",
+                            "title": "1 - Action ",
                             "file": "pages/naming/file/action"
                         },
                         {
                             "id": "naming/file",
                             "mode":"menu",
-                            "title": "Constant File Naming",
-                            "file": "pages/naming/file/constant"
-                        },
-                        {
-                            "id": "naming/file",
-                            "mode":"menu",
-                            "title": "Element File Naming",
+                            "title": "2 - Element ",
                             "file": "pages/naming/file/element"
                         },
                         {
                             "id": "naming/file",
                             "mode":"menu",
-                            "title": "Function File Naming",
+                            "title": "3 - Function ",
                             "file": "pages/naming/file/function"
                         },
                         {
                             "id": "naming/file",
                             "mode":"menu",
-                            "title": "API File Naming",
+                            "title": "4 - Constant ",
+                            "file": "pages/naming/file/constant"
+                        },
+                        {
+                            "id": "naming/file",
+                            "mode":"menu",
+                            "title": "5 - API ",
                             "file": "pages/naming/file/api"
                         },
                         {
                             "id": "naming/file",
                             "mode":"menu",
-                            "title": "Registry File Naming",
+                            "title": "6 - Registry ",
                             "file": "pages/naming/file/registry"
                         },
                         {
                             "id": "naming/file",
                             "mode":"menu",
-                            "title": "Language File Naming",
+                            "title": "7 - Language ",
                             "file": "pages/naming/file/lang"
                         }
                     ]
@@ -168,56 +168,56 @@
                         {
                             "id": "naming/function",
                             "mode":"menu",
-                            "title": "Action Function Naming",
+                            "title": "1 - Action",
                             "file": "pages/naming/function/action"
                         },
                         {
                             "id": "naming/function",
                             "mode":"menu",
-                            "title": "Constant Function Naming",
-                            "file": "pages/naming/function/constant"
-                        },
-                        {
-                            "id": "naming/function",
-                            "mode":"menu",
-                            "title": "Element Function Naming",
+                            "title": "2 - Element",
                             "file": "pages/naming/function/element"
                         },
                         {
                             "id": "naming/function",
                             "mode":"menu",
-                            "title": "API Function Naming",
-                            "file": "pages/naming/function/api"
-                        },
-                        {
-                            "id": "naming/function",
-                            "mode":"menu",
-                            "title": "Enum Function Naming",
-                            "file": "pages/naming/function/enum"
-                        },
-                        {
-                            "id": "naming/function",
-                            "mode":"menu",
-                            "title": "Function Naming",
+                            "title": "3 - Function",
                             "file": "pages/naming/function/function"
                         },
                         {
                             "id": "naming/function",
                             "mode":"menu",
-                            "title": "Interface Function Naming",
+                            "title": "4 - Interface",
                             "file": "pages/naming/function/interface"
                         },
                         {
                             "id": "naming/function",
                             "mode":"menu",
-                            "title": "Language Function Naming",
-                            "file": "pages/naming/function/lang"
+                            "title": "5 - Type",
+                            "file": "pages/naming/function/type"
                         },
                         {
                             "id": "naming/function",
                             "mode":"menu",
-                            "title": "Type Function Naming",
-                            "file": "pages/naming/function/type"
+                            "title": "6 - Constant",
+                            "file": "pages/naming/function/constant"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "7 - Enum",
+                            "file": "pages/naming/function/enum"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "8 - API",
+                            "file": "pages/naming/function/api"
+                        },
+                        {
+                            "id": "naming/function",
+                            "mode":"menu",
+                            "title": "9 - Language",
+                            "file": "pages/naming/function/lang"
                         }
                     ]
 
