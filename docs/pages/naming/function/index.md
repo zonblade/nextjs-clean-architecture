@@ -1,34 +1,17 @@
 # Function Naming
 
-Penamaan fungsi dasar mengikuti kaidah berikut :\
-[server/client]_fungsi
+Konvensi penamaan fungsi merupakan aspek yang tak kalah penting dalam pengembangan perangkat lunak, dan memiliki implikasi yang signifikan selain konvensi penamaan file. Dengan menggunakan aturan yang jelas untuk menamai fungsi dalam kode, pengembang dapat memperoleh beberapa manfaat penting:
 
-#### Rincian Penamaan
-- Client Functions (CFN):
-    - Fungsi-fungsi yang ditujukan untuk operasi atau tindakan di sisi klien (client) dari aplikasi.
-    - Contoh: CFN_CreateUser digunakan untuk membuat pengguna baru di sisi klien.
+- **Keterbacaan dan Konsistensi**: Penamaan fungsi yang konsisten memudahkan pengembang lain untuk memahami tujuan dan fungsionalitas setiap fungsi dalam kode. Ini meminimalkan kebingungan dan meningkatkan kolaborasi tim.
 
-```tsx
-export function CFN_CreateUser(prop: I_CreateUser) {
+- **Dokumentasi Internal yang Lebih Baik**: Fungsi yang diberi nama dengan baik dapat bertindak sebagai dokumentasi internal yang efektif. Dengan melihat nama fungsi, pengembang dapat memiliki gambaran yang lebih baik tentang apa yang fungsi tersebut lakukan dan bagaimana cara menggunakannya.
 
-}
-```
+- **Memudahkan Debugging**: Nama fungsi yang deskriptif dapat membantu dalam proses debugging. Dengan melihat panggilan fungsi, pengembang dapat dengan cepat menduga apa yang diharapkan dari fungsi tersebut dan menemukan masalah potensial dengan lebih efisien.
 
-- Server Functions (SFN): 
-    - Fungsi-fungsi yang ditujukan untuk operasi atau tindakan di sisi server dari aplikasi.
-    - Contoh: SFN_CreateUser digunakan untuk membuat pengguna baru di sisi server.
+- **Pengenalan Fungsi yang Lebih Cepat**: Dalam proyek besar, penamaan fungsi yang konsisten dan deskriptif memungkinkan pengembang untuk dengan cepat mengidentifikasi fungsi yang sesuai dengan kebutuhan mereka. Ini meningkatkan efisiensi dan mempercepat pengembangan aplikasi.
 
-```tsx
-export function SFN_CreateUser(prop: I_CreateUser) {
+- **Kompatibilitas dengan Alat dan API Eksternal**: Beberapa alat dan API eksternal membutuhkan konvensi penamaan fungsi tertentu. Dengan mengikuti konvensi ini, pengembang dapat memastikan bahwa aplikasi mereka kompatibel dengan alat-alat dan API yang digunakan.
 
-}
-```
+- **Pencegahan Konflik Nama**: Penamaan fungsi yang konsisten dapat membantu dalam mencegah konflik nama yang tidak diinginkan dalam kode. Dengan menerapkan aturan penamaan yang jelas, pengembang dapat menghindari kesalahan dan kebingungan yang terkait dengan penggunaan nama yang sama untuk fungsi yang berbeda.
 
-#### Alasan Penamaan
-- **Konsistensi**: Dengan menggunakan pola [server/client]_fungsi, penamaan fungsi menjadi konsisten dan mudah dipahami oleh pengembang, baik itu di sisi klien maupun server.
-
-- **Pembeda**: Penamaan yang membedakan antara fungsi yang dijalankan di sisi klien dan sisi server memudahkan dalam manajemen kode dan meminimalkan kemungkinan kebingungan.
-
-- **Keterbacaan**: Penamaan yang jelas dan deskriptif meningkatkan keterbacaan dan pemahaman kode, baik untuk pengembang saat ini maupun pengembang baru yang menggali kode.
-
-
+Dengan menerapkan konvensi penamaan fungsi yang sesuai, pengembang dapat meningkatkan keterbacaan, pemahaman, dan kualitas keseluruhan dari kode mereka, serta memperbaiki pengembangan dan pemeliharaan aplikasi dalam jangka panjang.
