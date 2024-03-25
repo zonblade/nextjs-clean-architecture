@@ -4,9 +4,9 @@ Konvensi penamaan untuk tipe data (type) dalam TypeScript adalah langkah penting
 
 
 ### Naming Conventions
-- Huruf T di Depan: Nama tipe data dimulai dengan huruf T diikuti oleh nama konsep atau objek yang diwakili oleh tipe data tersebut. Ini memberikan petunjuk langsung bahwa itu adalah sebuah tipe data.
+- **Huruf T di Depan**: Nama tipe data dimulai dengan huruf T diikuti oleh nama konsep atau objek yang diwakili oleh tipe data tersebut. Ini memberikan petunjuk langsung bahwa itu adalah sebuah tipe data.
 
-- Snake Case: Nama tipe data menggunakan kaidah snake case, yaitu setiap kata dipisahkan oleh underscore (_), dan semuanya dalam huruf kecil. Ini membuat tipe data lebih mudah dibaca dan membedakan kata-kata dalam penamaan.
+- **Snake Case**: Nama tipe data menggunakan kaidah snake case, yaitu setiap kata dipisahkan oleh underscore (_), dan semuanya dalam huruf kecil. Ini membuat tipe data lebih mudah dibaca dan membedakan kata-kata dalam penamaan.
 
 ### Contoh
 ```tsx

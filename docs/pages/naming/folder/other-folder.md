@@ -16,8 +16,8 @@ and it is easier too with Next JS App Router.
 
 | Folder   | Description |
 |----------|-------------|
-| $element | Folder ini diperuntukan untuk element (component) yang digunakan pada fitur tersebut. Pada folder ini terdapat element untuk server-side dan client-side komponent. |
-| $function | Folder ini diperuntukan untuk function yang digunakan pada fitur tersebut. Pada folder ini terdapat function untuk server-side dan client-side komponent. |
-| $action | Folder ini diperuntukan untuk aksi digunakan pada fitur tersebut. Biasanya digunakan untuk memanggil API|
-| $navigator | Folder ini diperuntukan untuk navigasi digunakan pada aplikasi.|
+| **$element** | Folder ini diperuntukan untuk element (component) yang digunakan pada fitur tersebut. Pada folder ini terdapat element untuk server-side dan client-side komponent. |
+| **$function** | Folder ini diperuntukan untuk function yang digunakan pada fitur tersebut. Pada folder ini terdapat function untuk server-side dan client-side komponent. |
+| **$action** | Folder ini diperuntukan untuk aksi digunakan pada fitur tersebut. Biasanya digunakan untuk memanggil API|
+| **$navigator** | Folder ini diperuntukan untuk navigasi digunakan pada aplikasi.|
 

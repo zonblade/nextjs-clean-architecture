@@ -4,7 +4,7 @@
 - app: Direktori utama yang berisi kode aplikasi tingkat tinggi. Di sini, biasanya terdapat file-file terkait konfigurasi aplikasi, definisi tata letak, dan file-file terkait tampilan tingkat tinggi.
 
 - registry: Direktori yang berisi kode terkait dengan registrasi dan konfigurasi modul-modul atau fitur-fitur aplikasi (dalam hal ini seperti global konstan). Dalam struktur ini, direktori ini merupakan direktori utama:
-    - [module].register.tsx: File yang berisi registrasi/konstan dan konfigurasi untuk modul atau fitur tertentu. File ini bertindak sebagai tempat untuk mendaftarkan dan mengkonfigurasi berbagai bagian dari modul atau fitur tersebut.
+    - [module].register.ts: File yang berisi registrasi/konstan dan konfigurasi untuk modul atau fitur tertentu. File ini bertindak sebagai tempat untuk mendaftarkan dan mengkonfigurasi berbagai bagian dari modul atau fitur tersebut.
 
 Contoh Struktur
 ```sh
@@ -13,7 +13,7 @@ Contoh Struktur
 ├── app/
 ├── lib/
 └── reg/
-    └── routes.register.tsx
+    └── routes.register.ts
 ```
 
 ### Alasan Penggunaan:

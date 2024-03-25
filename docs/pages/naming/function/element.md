@@ -5,7 +5,7 @@ Penamaan fungsi pada element mengikuti kaidah berikut :\
 [server/client]_[element]
 
 #### Rincian Penamaan
-- Client Element (CE):
+- **Client Element (CE)**:
     - Fungsi-fungsi yang berinteraksi dengan elemen (component) pada sisi klien (client) dari aplikasi.
     - Contoh: CE_Pagination digunakan untuk mengatur nilai pada suatu elemen di sisi klien.
 ```tsx
@@ -17,7 +17,7 @@ const CE_Pagination = () => {
 }
 
 ```
-- Server Element (SE):
+- **Server Element (SE)**:
     - Fungsi-fungsi yang berinteraksi dengan elemen pada sisi server dari aplikasi.
     - Contoh: SFN_GetValue digunakan untuk mendapatkan nilai dari suatu elemen di sisi server.
 ```tsx

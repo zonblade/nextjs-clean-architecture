@@ -4,9 +4,9 @@ Penamaan fungsi pada action mengikuti kaidah berikut :\
 ACT_[action]
 
 #### Rincian Penamaan
-- ACT: Awalan yang menunjukkan bahwa fungsi tersebut adalah tindakan (action) yang dijalankan dalam konteks tertentu.
+- **ACT**: Awalan yang menunjukkan bahwa fungsi tersebut adalah tindakan (action) yang dijalankan dalam konteks tertentu.
 
-- [action]: Deskripsi singkat dari tindakan yang dilakukan oleh fungsi tersebut.
+- **[action]**: Deskripsi singkat dari tindakan yang dilakukan oleh fungsi tersebut.
 
 ## Contoh Penamaan
 ACT_SubmitForm: Digunakan untuk mengeksekusi tindakan pengiriman formulir.

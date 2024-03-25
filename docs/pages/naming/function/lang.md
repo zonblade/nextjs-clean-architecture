@@ -3,11 +3,11 @@
 Deskripsi Fungsi pada File Language:
 LANG_[feature]_[language]
 
-- Prefix "LANG_": Setiap fungsi diawali dengan prefiks "LANG_", yang menunjukkan bahwa itu adalah fungsi terkait language atau lokal (localization). Prefiks ini memberikan petunjuk langsung bahwa fungsi tersebut berisi data bahasa.
+- **Prefix "LANG_"**: Setiap fungsi diawali dengan prefiks "LANG_", yang menunjukkan bahwa itu adalah fungsi terkait language atau lokal (localization). Prefiks ini memberikan petunjuk langsung bahwa fungsi tersebut berisi data bahasa.
 
-- [feauture]: Bagian ini mencerminkan fitur atau bagian dari aplikasi yang terkait dengan fungsi bahasa tersebut. Penamaan ini memberikan konteks tentang penggunaan fungsi bahasa dalam konteks tertentu dalam aplikasi.
+- **[feauture]**: Bagian ini mencerminkan fitur atau bagian dari aplikasi yang terkait dengan fungsi bahasa tersebut. Penamaan ini memberikan konteks tentang penggunaan fungsi bahasa dalam konteks tertentu dalam aplikasi.
 
-- [language]: Bagian ini menunjukkan kode bahasa atau lokal tertentu yang terkait dengan fungsi bahasa tersebut. Ini memungkinkan untuk membedakan antara variasi bahasa yang berbeda dalam aplikasi.
+- **[language]**: Bagian ini menunjukkan kode bahasa atau lokal tertentu yang terkait dengan fungsi bahasa tersebut. Ini memungkinkan untuk membedakan antara variasi bahasa yang berbeda dalam aplikasi.
 
 
 Contoh

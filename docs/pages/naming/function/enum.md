@@ -4,12 +4,12 @@ Penamaan fungsi pada enum mengikuti kaidah berikut:\
 E_[name]
 
 #### Rincian Penamaan
-E: Awalan yang menunjukkan bahwa variabel tersebut adalah enum.
+**E**: Awalan yang menunjukkan bahwa variabel tersebut adalah enum.
 
-[name]: Nama deskriptif dari enum tersebut, biasanya menggambarkan jenis atau kategori dari nilai yang direpresentasikan oleh enum.
+**[name]**: Nama deskriptif dari enum tersebut, biasanya menggambarkan jenis atau kategori dari nilai yang direpresentasikan oleh enum.
 
 ## Contoh Penamaan
-- E_User_Management: Digunakan untuk merepresentasikan enum yang terkait dengan manajemen pengguna dalam aplikasi.
+- **E_User_Management**: Digunakan untuk merepresentasikan enum yang terkait dengan manajemen pengguna dalam aplikasi.
 ```tsx
 export enum E_User_Managament {
     FAIL_TO_CONFIRM = "fail:to:error",

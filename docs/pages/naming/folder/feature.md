@@ -13,7 +13,7 @@ Sebagai contoh, jika terdapat fitur management user maka folder yang akan dibuat
 
 ### Alasan Penggunaan 
 
-- Memudahkan Pengembangan: Dengan menggunakan metode ini maka , pengembangan aplikasi akan menjadi lebih mudah karena fitur sudah dikelompokan oleh foldernya dan jika terdapat tambahan fitur pada scope tersebut akan jauh lebih mudah.
+- **Memudahkan Pengembangan**: Dengan menggunakan metode ini maka , pengembangan aplikasi akan menjadi lebih mudah karena fitur sudah dikelompokan oleh foldernya dan jika terdapat tambahan fitur pada scope tersebut akan jauh lebih mudah.
 
-- Memudahkan Debugging: Jika terjadi error, akan lebih mudah. Kita dapat langsung mencarinya pada feature yang terkait.
+- **Memudahkan Debugging**: Jika terjadi error, akan lebih mudah. Kita dapat langsung mencarinya pada feature yang terkait.
 
