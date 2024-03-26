@@ -5,6 +5,8 @@
     - **sfn.table.constructor.tsx**: File yang berisi komponen atau logika terkait dengan konstruksi (constructor) atau inisialisasi tabel dalam aplikasi.
     - **cfn.create.user.tsx**: File yang berisi komponen atau logika terkait dengan pembuatan (create) pengguna dalam aplikasi.
 
+[Referensi Penamaan Fungsi](?p=pages%2Fnaming%2Ffile%2Ffunction)
+
 Contoh Struktur :     
 ```sh
 .
